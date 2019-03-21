@@ -1,32 +1,32 @@
 <!DOCTYPE>
-<meta charset="utf-8"/>
+
 <lang="FR"/>
 <html>
+<head>
+<meta charset="utf-8"/>
 
-
-  <style>
-  table  {
-    border-collapse:collapse;
-  }
-  td, th {/*Mettre une bordure sur les td et les th */
-  border: 1px solid black;
+<style>
+  table, tr, th, td{
+border: 1px solid black;
+border-collapse:collapse;
 }
 tfoot {
   text-align: center;
-}
+  font-weight:bold;
+  }
+  </style>
+  </head>
 
-</tfoot>
-</style>
-<table>
-  <tr>
-       <caption>Mon compte bnp</caption>
-  </tr>
-  <tr>
+  <table>
+ <caption>Mon compte bnp</caption>
+<thead>
+<tr>
 <th>Date</th>
 <th>Libéllé</th>
 <th>Débit</th>
 <th>Crédit</th>
 </tr>
+</thead>
 <tr>
 <td>01/05/2016</td>
 <td>paye</td>
@@ -57,6 +57,7 @@ tfoot {
 <td>0</td>
 <td>39,90</td>
 </tr>
+</body>
 <tfoot>
   <tr>
 <td colspan="2">Solde</td>
